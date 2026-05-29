@@ -10,13 +10,13 @@ settings:
 preloader:
   logo:
     image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    alt: "선비니"
 
 ### Header
 header:
   logo:
     image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    alt: "선비니"
 
 ### Social
 social:
@@ -34,8 +34,8 @@ social:
 
 ### Footer
 footer:
-  developer: "Developed by <strong>bslthemes</strong>"
-  copyright: "<strong>Luique</strong>. All rights reserved"
+  선비니: "Developed by <strong>bslthemes</strong>"
+  선비니: "<strong>Luique</strong>. All rights reserved"
 
 ### Portfolio Filters Settings
 portfolio:

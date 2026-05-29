@@ -5,12 +5,12 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile.png"
-  image_alt: "이태원"
-  before_title: "환영합니다, <b>제 이름은</b>"
-  title: "<b>Taewon</b> Lee"
+  image: "assets/img/preview.webp"
+  image_alt: "이선빈"
+  before_title: "안녕하세요, <b>제 이름은</b>"
+  title: "<b>이선빈</b> 입니다."
   after_title: "I am <strong>Cyber Security Professional</strong>"
-  description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 입니다."
+  description: "저는 사이버보안을 전공하고 있으며 보안 전문가를 목표로 공부하고 있습니다."
   button1:
     label: "이력서 다운받기"
     link: "#"
@@ -27,118 +27,104 @@ hero:
 
 ### Services [ services ]
 services:
-  title: "What I Do"
-  subtitle: "my <b>Services</b>"
+  title: "제가 하는 일"
+  subtitle: "나의 <b>서비스</b>"
   bg_title: "Services"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "네트워크 보안"
+      subtitle: "Network Security"
+      text: "네트워크 트래픽 분석 및 침입 탐지 시스템을 통해 보안 위협을 모니터링하고 대응합니다."
+      button_label: "더 보기"
+      button_link: "#portfolio-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "취약점 분석"
+      subtitle: "Vulnerability Analysis"
+      text: "시스템과 애플리케이션의 보안 취약점을 탐지하고 분석하여 보안 강화 방안을 제시합니다."
+      button_label: "더 보기"
+      button_link: "#portofolio-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "보안 도구 개발"
+      subtitle: "Security Tool Development"
+      text: "보안 점검 및 모니터링을 위한 도구를 직접 개발하고 자동화합니다."
+      button_label: "더 보기"
+      button_link: "#portfolio-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
+    - title: "악성코드 분석"
+      subtitle: "Malware Analysis"
       text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
     - title: "Sound Track"
       subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+      text: "악성 소프트웨어의 동작 방식을 분석하고 대응 방안을 연구합니다."
+      button_label: "더 보기"
+      button_link: "#portfolio-section"
 
 ### Skills [ skills ]
 skills:
-  title: "Professional Skills"
-  subtitle: "my <b>Talent</b>"
+  title: "보유 기술"
+  subtitle: "보안관제/침해대응 <b>역량</b>"
   bg_title: "Skills"
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
+      - label: "네트워크 보안" #0-10 progress in dots
+        text: "iptables 방화벽 정책 구성과 3-zone 토폴로지(External/Intra/DMZ) 설계 경험이 있습니다."
+        value: "80" #0-100 progress in %
 
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "IDS/IPS (Snort)" #0-10 progress in dots
+        text: "Snort 룰 작성과 ICMP 임계치 기반 침입 탐지 환경을 구축했습니다."
         value: "75" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
-
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "침해대응/로그분석" #0-10 progress in dots
+        text: "iptables LOG 기반 트래픽 모니터링과 이상 징후 분석을 학습하고 있습니다."
         value: "70" #0-100 progress in %
+
+      - label: "Linux/서버보안 " #0-10 progress in dots
+        text: "ubuntu 환경에서 방화벽,NAT,서버 보안 설정을 직접 구성합니다."
+        value: "75" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+      - label: "Python" #0-10 progress in dots
+        text: "보안 분석 자동화와 FastAPI 백엔드 개발에 활용합니다."
+        value: "75" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "보안 프로젝트 (PURE QR)" #0-10 progress in dots
+        text: "악성 URL,QR탐지 앱의 백엔드와 외부 보안 API 연동을 개발했습니다."
+        value: "70" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
-  title: "Resume"
-  subtitle: "my <b>Story</b>"
+  title: "학력"
+  subtitle: "나의 <b>Story</b>"
   bg_title: "History"
 
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학교"
+        subname: "사이버보안과"
+        period: "2025 - 2027"
+        text: "네트워크 보안, 방화벽 구성, 프로그래밍언어 등등 다양한 실습을 중심으로 학습 중입니다."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "다산고등학교"
+        subname: "의료정보학과"
+        period: "2018 - 2021"
+        text: "컴퓨터활용, AutoCAD, 그래픽제작, Adobe Photoshop 등 다양한 분야의 실습을 중심으로 학습했습니다."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
-    title: "Experience"
+    title: "경력 및 활동"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "PURE QR 프로젝트"
+        subname: "자동탐지 보안시스템 앱 개발"
+        period: "2026 - <b>현재</b>"
+        text: "악성 QR,URL 탐지 앱의 백엔드와 외부 보안 API 연동을 개발했습니다."
 
 
 ### Testimonials [ testimonials ]
@@ -240,43 +226,43 @@ pricing:
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
-  title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
+  title: "블로그"
+  subtitle: "보안 학습 <b>기록</b>"
   bg_title: "Blog"
   button:
-    label: "View Blog"
+    label: "블로그 보기"
     link: "blog/"
 
 
 ### Contact [ contacts ]
 contacts:
-  title: "Contact Me"
-  subtitle: "Let’s <b>Talk About Ideas</b>"
+  title: "연락처"
+  subtitle: "함께 <b>이야기해요</b>"
   bg_title: "Contact Me"
 
   list:
-    - label: "Address"
+    - label: "지역"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "대한민국, 서울"
 
-    - label: "Freelance"
+    - label: "상태"
       icon: "far fa-user"
-      text: "Available Right Now"
+      text: "취업 준비 중"
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "sunbin0224@naver.com"
 
     - label: "Phone"
       icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "010-8008-7387"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
 portfolio:
   title: "Portfolio"
-  subtitle: "my <b>Cases</b>"
+  subtitle: "나의 <b>프로젝트</b>"
   bg_title: "Portfolio"
   button:
     link: "works/"
-    label: "View More"
+    label: "더 보기"

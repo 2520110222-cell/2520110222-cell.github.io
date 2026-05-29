@@ -7,57 +7,42 @@
 
 main:
   # Home
-  - title: "Home"
+  - title: "홈"
     url: "/"
     parent: 0
 
   # Services
-  - title: "Services"
+  - title: "서비스"
     url: "#services-section"
     parent: 0
 
   # Skills
-  - title: "Skills"
-    url: "#skills-section"
+  - title: "포트폴리오"
+    url: "#portfolio-section"
     parent: 0
 
   # Works
-  - title: "Works"
-    url: "#works-section"
-    parent: 0
-
-  # Resume
-  - title: "Resume"
+  - title: "이력서"
     url: "#resume-section"
     parent: 0
 
+  # Resume
+  - title: "블로그"
+    url: "blog/"
+    parent: 0
+
   # Testimonials
-  - title: "Testimonials"
-    url: "#testimonials-section"
-    parent: 0
-
-  # Pricing
-  - title: "Pricing"
-    url: "#pricing-section"
-    parent: 0
-
-  # Blog
-  - title: "Blog"
-    url: "#blog-section"
-    parent: 0
-
-  # Contact
-  - title: "Contact"
-    url: "#contact-section"
+  - title: "연락하기"
+    url: "#contacts-section"
     parent: 0
 
   # Additional Pages
-  - title: "Pages"
+  - title: "더보기"
     url: ""
     parent: 1
     childs:
-        - title: "Works"
+        - title: "포트폴리오 전체"
           url: "works/"
 
-        - title: "Blog"
+        - title: "블로그"
           url: "blog/"
