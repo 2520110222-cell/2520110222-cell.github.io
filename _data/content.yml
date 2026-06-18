@@ -5,7 +5,7 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/preview.webp"
+  image: "assets/images/subin.jpg"
   image_alt: "이선빈"
   before_title: "안녕하세요, <b>제 이름은</b>"
   title: "<b>이선빈</b> 입니다."
@@ -71,31 +71,31 @@ skills:
   column1:
     items:
       - label: "네트워크 보안" #0-10 progress in dots
-        text: "iptables 방화벽 정책 구성과 3-zone 토폴로지(External/Intra/DMZ) 설계 경험이 있습니다."
+        text: "iptables 로 External/Intra/DMZ 3-zone 토플로지를 직접 구성하고, ICMP,DNS,HTTP,HTTPS 정책과 SSH 접근통제, SYN flood차단까지 설계한 경험이 있습니다."
         value: "80" #0-100 progress in %
 
       - label: "IDS/IPS (Snort)" #0-10 progress in dots
-        text: "Snort 룰 작성과 ICMP 임계치 기반 침입 탐지 환경을 구축했습니다."
+        text: "IDS/IPS Snort룰을 직접 작성해 ICMP 탐지와 TLS 핸드셰이크 기반 침입 탐지 환경을 구축하고, thershold 설정으로 오탐을 줄이는 실습을 진행했습니다."
         value: "75" #0-100 progress in %
 
   column2:
     items:
       - label: "침해대응/로그분석" #0-10 progress in dots
-        text: "iptables LOG 기반 트래픽 모니터링과 이상 징후 분석을 학습하고 있습니다."
+        text: "iptables LOG로 남긴 트래픽 로그를 분석해 SRC/DST 포트,프로토콜 단위로 정상, 비정상 통신을 구분하고 이상 징후를 판단하는 방법을 학습하고 있습니다."
         value: "70" #0-100 progress in %
 
       - label: "Linux/서버보안 " #0-10 progress in dots
-        text: "ubuntu 환경에서 방화벽,NAT,서버 보안 설정을 직접 구성합니다."
+        text: "ubuntu, kali 환경에서 방화벽과 NAT를 직접 구성하고, OPNssense 방화벽 VM과 vsftpd FTP 서버를 구축하며 서버 보안 설정을 익혔습니다."
         value: "75" #0-100 progress in %
 
   column3:
     items:
       - label: "Python" #0-10 progress in dots
-        text: "보안 분석 자동화와 FastAPI 백엔드 개발에 활용합니다."
+        text: "FastAPI로 보안 진단 백엔드를 개발하고, 소켓 프로그래밍으로 멀티스레드 IP 스캐닝,파일전송을 구현하며 보안 분석 자동화에 활용합니다."
         value: "75" #0-100 progress in %
 
       - label: "보안 프로젝트 (PURE QR)" #0-10 progress in dots
-        text: "악성 URL,QR탐지 앱의 백엔드와 외부 보안 API 연동을 개발했습니다."
+        text: "악성 URL,QR 탐지 앱의 백엔드와 Android 클라리언트를 개발하고, VirusTotal, Google Safe Browsing, WHOIS, SSl 검증 등 외부 보안 API를 연동했습니다."
         value: "70" #0-100 progress in %
 
 ### Resume [ resume ]
